@@ -1,0 +1,29 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: study-zuul
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+#修改访问的方式
+zuul:
+  routes:
+    study-rest:
+      path: /restService/**
+      serviceId: study-rest
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: thread
+          thread:
+            timeoutInMilliseconds: 5000

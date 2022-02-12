@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/study-eureka/study-eureka.iml" filepath="$PROJECT_DIR$/study-eureka/study-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-feign/study-feign.iml" filepath="$PROJECT_DIR$/study-feign/study-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-hystrix/study-hystrix.iml" filepath="$PROJECT_DIR$/study-hystrix/study-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-parent.iml" filepath="$PROJECT_DIR$/study-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-rest/study-rest.iml" filepath="$PROJECT_DIR$/study-rest/study-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-rest-server/study-rest-server.iml" filepath="$PROJECT_DIR$/study-rest-server/study-rest-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-ribbon/study-ribbon.iml" filepath="$PROJECT_DIR$/study-ribbon/study-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-zuul/study-zuul.iml" filepath="$PROJECT_DIR$/study-zuul/study-zuul.iml" />
+    </modules>
+  </component>
+</project>

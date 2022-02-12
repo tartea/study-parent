@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="study-hystrix" />
+        <module name="study-zuul" />
+        <module name="study-rest-server" />
+        <module name="study-ribbon" />
+        <module name="study-feign" />
+        <module name="study-rest" />
+        <module name="study-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="study-aop" target="1.5" />
+      <module name="study-eureka" target="1.5" />
+      <module name="study-feign" target="1.5" />
+      <module name="study-hystrix" target="1.5" />
+      <module name="study-hystrix-dashboard" target="1.5" />
+      <module name="study-parent" target="1.5" />
+      <module name="study-rabbitmq" target="1.5" />
+      <module name="study-rest" target="1.5" />
+      <module name="study-rest-server" target="1.5" />
+      <module name="study-ribbon" target="1.5" />
+      <module name="study-spring-source" target="1.5" />
+      <module name="study-web" target="1.5" />
+      <module name="study-web-not-ribbon" target="1.5" />
+      <module name="study-zuul" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="study-feign" options="" />
+      <module name="study-rest" options="" />
+      <module name="study-rest-server" options="" />
+      <module name="study-ribbon" options="" />
+      <module name="study-zuul" options="" />
+    </option>
+  </component>
+  <component name="TypeScriptCompiler">
+    <option name="recompileOnChanges" value="true" />
+    <option name="typeScriptCompilerParams" value="--sourceMap true" />
+    <option name="typeScriptServiceDirectory" value="/usr/local/lib/node_modules/typescript" />
+    <option name="useConfig" value="true" />
+    <option name="versionType" value="SERVICE_DIRECTORY" />
+  </component>
+</project>
