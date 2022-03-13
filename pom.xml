@@ -54,6 +54,10 @@
         <module>study-rest-server</module>
         <module>study-ribbon</module>
         <module>study-zuul</module>
+        <module>dubbo-api</module>
+        <module>dubbo-provider</module>
+        <module>dubbo-consumer</module>
+        <module>spring-mybatis</module>
     </modules>
 
     <build>
