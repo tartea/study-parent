@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d157b86-14a7-4168-858e-e89f0c293c6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/java/org/tartea/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/org/tartea/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/test/java/org/tartea/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/org/tartea/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/target/classes/org/tartea/controller/DemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/target/test-classes/org/tartea/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/target/test-classes/org/tartea/SampleTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -16,14 +42,26 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
+  <component name="ProjectId" id="26KPZn8mEN8xYL4udj2UBDBVwxd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="D:/gongxinbu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-kafka/src/main/resources" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -32,8 +70,105 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.StudyRibbonApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study-kafka/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProducerTest.testSendTopic">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerTest.testConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tartea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tartea" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.ConsumerTest" />
+      <option name="METHOD_NAME" value="testConsumer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaClientTest.testCreateTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tartea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tartea" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.KafkaClientTest" />
+      <option name="METHOD_NAME" value="testCreateTopic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testDeleteTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tartea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tartea" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.ProducerTest" />
+      <option name="METHOD_NAME" value="testDeleteTopic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tartea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tartea" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.ProducerTest" />
+      <option name="METHOD_NAME" value="testSend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testSendTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tartea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tartea" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.ProducerTest" />
+      <option name="METHOD_NAME" value="testSendTopic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DubboApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dubbo-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tartea.DubboApiApplication" />
@@ -83,6 +218,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudyKafkaApplication-8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-kafka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tartea.StudyKafkaApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-kafka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tartea.StudyKafkaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudyRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="study-rest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tartea.study.StudyRestApplication" />
@@ -111,12 +263,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ConsumerTest.testConsumer" />
+      <item itemvalue="JUnit.KafkaClientTest.testCreateTopic" />
+      <item itemvalue="JUnit.ProducerTest.testDeleteTopic" />
+      <item itemvalue="JUnit.ProducerTest.testSend" />
+      <item itemvalue="JUnit.ProducerTest.testSendTopic" />
+      <item itemvalue="Spring Boot.DubboApiApplication" />
+      <item itemvalue="Spring Boot.DubboConsumerApplication" />
+      <item itemvalue="Spring Boot.DubboProviderApplication" />
+      <item itemvalue="Spring Boot.SpringMybatisApplication" />
+      <item itemvalue="Spring Boot.StudyEurekaApplication" />
+      <item itemvalue="Spring Boot.StudyFeignApplication" />
+      <item itemvalue="Spring Boot.StudyHystrixApplication" />
+      <item itemvalue="Spring Boot.StudyKafkaApplication" />
+      <item itemvalue="Spring Boot.StudyKafkaApplication-8081" />
+      <item itemvalue="Spring Boot.StudyRestApplication" />
+      <item itemvalue="Spring Boot.StudyRestServerApplication" />
+      <item itemvalue="Spring Boot.StudyRibbonApplication" />
+      <item itemvalue="Spring Boot.StudyZuulApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProducerTest.testSendTopic" />
+        <item itemvalue="JUnit.ConsumerTest.testConsumer" />
+        <item itemvalue="JUnit.KafkaClientTest.testCreateTopic" />
+        <item itemvalue="JUnit.ProducerTest.testSend" />
+        <item itemvalue="JUnit.ProducerTest.testDeleteTopic" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
     <option name="myConnectionType" value="NONE" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\jwh\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d157b86-14a7-4168-858e-e89f0c293c6d" name="Default Changelist" comment="" />
+      <created>1647169363292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647169363292</updated>
+      <workItem from="1647169364604" duration="339000" />
+      <workItem from="1647336584017" duration="4000" />
+      <workItem from="1647411601284" duration="361000" />
+      <workItem from="1647434933537" duration="572000" />
+      <workItem from="1647748163211" duration="3128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

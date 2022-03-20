@@ -1,6 +1,7 @@
 package org.tartea;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,6 +37,18 @@ public class SampleTest {
     public void testCount() {
         Integer record = userMapper.countRecord();
         Assert.assertSame(1,record);
+    }
+
+    @Test
+    public void updateData() {
+        User user = new User();
+        user.setName("wen");
+        user.setAge(12);
+        user.setEmail("12312312@qq.com");
+        UpdateWrapper updateWrapper = new UpdateWrapper();
+        updateWrapper.eq("user_id",2);
+        int update = userMapper.update(user, updateWrapper);
+        System.out.println(update);
     }
 
 }

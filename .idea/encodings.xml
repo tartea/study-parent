@@ -5,5 +5,6 @@
     <file url="file://$PROJECT_DIR$/dubbo-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-kafka/src/main/java" charset="UTF-8" />
   </component>
 </project>
