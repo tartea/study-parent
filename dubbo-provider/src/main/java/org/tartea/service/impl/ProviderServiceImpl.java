@@ -2,6 +2,7 @@ package org.tartea.service.impl;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.apache.dubbo.config.annotation.Service;
+import org.tartea.dto.User;
 import org.tartea.service.ProviderService;
 
 /**
@@ -19,6 +20,12 @@ public class ProviderServiceImpl implements ProviderService {
     @Override
     public String SayHello(String word) {
         System.out.println("订单服务调用会员服务...dubbo服务端口号：" + dubboPort);
+        return "订单服务调用会员服务...dubbo服务端口号：" + dubboPort;
+    }
+
+    @Override
+    public String SayHello(User user) {
+        System.out.println("订单服务调用会员服务...dubbo服务端口号：" + dubboPort + user.toString());
         return "订单服务调用会员服务...dubbo服务端口号：" + dubboPort;
     }
 }

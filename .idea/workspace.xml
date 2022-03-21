@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d157b86-14a7-4168-858e-e89f0c293c6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/java/org/tartea/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/org/tartea/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/test/java/org/tartea/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/org/tartea/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/target/classes/org/tartea/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/target/test-classes/org/tartea/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/target/test-classes/org/tartea/SampleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-api/src/main/java/org/tartea/service/ProviderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/org/tartea/service/ProviderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/org/tartea/controller/OrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/org/tartea/controller/OrderConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/org/tartea/controller/OrderConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/org/tartea/controller/OrderConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/org/tartea/service/impl/ProviderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/org/tartea/service/impl/ProviderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-kafka/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -76,15 +78,20 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/study-kafka/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.tartea.dto" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProducerTest.testSendTopic">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.DubboConsumerApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -312,7 +319,8 @@
       <workItem from="1647336584017" duration="4000" />
       <workItem from="1647411601284" duration="361000" />
       <workItem from="1647434933537" duration="572000" />
-      <workItem from="1647748163211" duration="3128000" />
+      <workItem from="1647748163211" duration="3785000" />
+      <workItem from="1647866842473" duration="625000" />
     </task>
     <servers />
   </component>
