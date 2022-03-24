@@ -25,6 +25,7 @@ public class SampleTest {
         Assert.assertEquals(1, userList.size());
         userList.forEach(System.out::println);
     }
+
     @Test
     public void testQuery() {
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
@@ -36,7 +37,7 @@ public class SampleTest {
     @Test
     public void testCount() {
         Integer record = userMapper.countRecord();
-        Assert.assertSame(1,record);
+        Assert.assertSame(1, record);
     }
 
     @Test
@@ -46,9 +47,21 @@ public class SampleTest {
         user.setAge(12);
         user.setEmail("12312312@qq.com");
         UpdateWrapper updateWrapper = new UpdateWrapper();
-        updateWrapper.eq("user_id",2);
+        updateWrapper.eq("user_id", 2);
         int update = userMapper.update(user, updateWrapper);
         System.out.println(update);
+    }
+
+
+    /**
+     * 存在多条数据的时候会报错
+     */
+    //    @Test
+    public void selectList() {
+        UpdateWrapper updateWrapper = new UpdateWrapper();
+        updateWrapper.eq("name", "wen");
+        User user = userMapper.selectOne(updateWrapper);
+        System.out.println(user.toString());
     }
 
 }

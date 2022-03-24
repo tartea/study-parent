@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d157b86-14a7-4168-858e-e89f0c293c6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dubbo-api/src/main/java/org/tartea/service/ProviderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/org/tartea/service/ProviderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/org/tartea/controller/OrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/org/tartea/controller/OrderConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/org/tartea/controller/OrderConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/org/tartea/controller/OrderConsumerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/org/tartea/service/impl/ProviderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/org/tartea/service/impl/ProviderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/java/org/tartea/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/org/tartea/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/test/java/org/tartea/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/org/tartea/SampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,16 +78,14 @@
       <recent name="org.tartea.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DubboConsumerApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SampleTest.selectList">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,22 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerTest.testDeleteTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.tartea.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.tartea" />
-      <option name="MAIN_CLASS_NAME" value="org.tartea.ProducerTest" />
-      <option name="METHOD_NAME" value="testDeleteTopic" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProducerTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study-kafka" />
       <extension name="coverage">
@@ -171,6 +149,22 @@
       <option name="PACKAGE_NAME" value="org.tartea" />
       <option name="MAIN_CLASS_NAME" value="org.tartea.ProducerTest" />
       <option name="METHOD_NAME" value="testSendTopic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest.selectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tartea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tartea" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.SampleTest" />
+      <option name="METHOD_NAME" value="selectList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -273,7 +267,6 @@
     <list>
       <item itemvalue="JUnit.ConsumerTest.testConsumer" />
       <item itemvalue="JUnit.KafkaClientTest.testCreateTopic" />
-      <item itemvalue="JUnit.ProducerTest.testDeleteTopic" />
       <item itemvalue="JUnit.ProducerTest.testSend" />
       <item itemvalue="JUnit.ProducerTest.testSendTopic" />
       <item itemvalue="Spring Boot.DubboApiApplication" />
@@ -289,14 +282,15 @@
       <item itemvalue="Spring Boot.StudyRestServerApplication" />
       <item itemvalue="Spring Boot.StudyRibbonApplication" />
       <item itemvalue="Spring Boot.StudyZuulApplication" />
+      <item itemvalue="JUnit.SampleTest.selectList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SampleTest.selectList" />
         <item itemvalue="JUnit.ProducerTest.testSendTopic" />
         <item itemvalue="JUnit.ConsumerTest.testConsumer" />
         <item itemvalue="JUnit.KafkaClientTest.testCreateTopic" />
         <item itemvalue="JUnit.ProducerTest.testSend" />
-        <item itemvalue="JUnit.ProducerTest.testDeleteTopic" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +315,7 @@
       <workItem from="1647434933537" duration="572000" />
       <workItem from="1647748163211" duration="3785000" />
       <workItem from="1647866842473" duration="625000" />
+      <workItem from="1648106305964" duration="291000" />
     </task>
     <servers />
   </component>
