@@ -21,12 +21,12 @@ public class ProviderServiceImpl implements ProviderService {
     @Override
     public String sayHello(String word) {
         System.out.println("订单服务调用会员服务...dubbo服务端口号：" + dubboPort);
-        return "订单服务调用会员服务...dubbo服务端口号：" + dubboPort;
+        return "调用成功...dubbo服务端口号：" + dubboPort;
     }
 
     @Override
     public String sayHello(User user) {
         System.out.println("订单服务调用会员服务...dubbo服务端口号：" + dubboPort + user.toString());
-        return "订单服务调用会员服务...dubbo服务端口号：" + dubboPort;
+        return "user调用成功...dubbo服务端口号：" + dubboPort;
     }
 }
