@@ -15,9 +15,9 @@
         <module name="study-rest" />
         <module name="study-eureka" />
         <module name="spring-mybatis" />
-        <module name="dubbo-api" />
         <module name="dubbo-consumer" />
         <module name="study-kafka" />
+        <module name="dubbo-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

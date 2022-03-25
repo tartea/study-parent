@@ -5,6 +5,7 @@ import org.apache.dubbo.config.annotation.Service;
 import org.tartea.dto.User;
 import org.tartea.service.ProviderService;
 
+
 /**
  * xml方式服务提供者实现类
  */
@@ -18,13 +19,13 @@ public class ProviderServiceImpl implements ProviderService {
     // 2.dubbo 提供的 @Service 将该接口的实现注册到注册中心上去
     // 3.spring 的 @Service 将该类注入到spring容器中
     @Override
-    public String SayHello(String word) {
+    public String sayHello(String word) {
         System.out.println("订单服务调用会员服务...dubbo服务端口号：" + dubboPort);
         return "订单服务调用会员服务...dubbo服务端口号：" + dubboPort;
     }
 
     @Override
-    public String SayHello(User user) {
+    public String sayHello(User user) {
         System.out.println("订单服务调用会员服务...dubbo服务端口号：" + dubboPort + user.toString());
         return "订单服务调用会员服务...dubbo服务端口号：" + dubboPort;
     }

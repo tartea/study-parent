@@ -63,5 +63,12 @@ public class SampleTest {
         User user = userMapper.selectOne(updateWrapper);
         System.out.println(user.toString());
     }
+    @Test
+    public void testIsExistRecord() {
+        Integer res = userMapper.isExistRecord("wen");
+        System.out.println(res);
+        Integer data = userMapper.isExistRecord("jia");
+        System.out.println(data);
+    }
 
 }

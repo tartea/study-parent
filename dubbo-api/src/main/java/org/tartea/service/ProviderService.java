@@ -7,7 +7,7 @@ import org.tartea.dto.User;
  */
 public interface ProviderService {
 
-    String SayHello(String word);
+    String sayHello(String word);
 
-    String SayHello(User user);
+    String sayHello(User user);
 }
