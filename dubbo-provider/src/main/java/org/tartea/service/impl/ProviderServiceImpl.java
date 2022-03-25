@@ -2,7 +2,7 @@ package org.tartea.service.impl;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.apache.dubbo.config.annotation.Service;
-import org.tartea.dto.User;
+import org.tartea.entity.User;
 import org.tartea.service.ProviderService;
 
 

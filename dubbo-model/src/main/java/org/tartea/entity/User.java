@@ -1,4 +1,4 @@
-package org.tartea.dto;
+package org.tartea.entity;
 
 import java.io.Serializable;
 

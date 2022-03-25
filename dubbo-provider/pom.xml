@@ -31,9 +31,14 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.tartea</groupId>-->
+<!--            <artifactId>dubbo-api</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+<!--        </dependency>-->
+          <dependency>
             <groupId>org.tartea</groupId>
-            <artifactId>dubbo-api</artifactId>
+            <artifactId>dubbo-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

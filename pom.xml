@@ -59,6 +59,7 @@
         <module>dubbo-consumer</module>
         <module>spring-mybatis</module>
         <module>study-kafka</module>
+        <module>dubbo-model</module>
     </modules>
 
     <build>
