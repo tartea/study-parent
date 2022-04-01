@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d157b86-14a7-4168-858e-e89f0c293c6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitigore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitigore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-api/src/main/java/org/tartea/DubboApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-api/src/main/java/org/tartea/service/ProviderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/org/tartea/service/ProviderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-api/src/test/java/org/tartea/DubboApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-api/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-api/target/classes/org/tartea/DubboApiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-api/target/test-classes/org/tartea/DubboApiApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/org/tartea/service/ProviderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/org/tartea/service/impl/ProviderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/org/tartea/service/impl/ProviderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/org/tartea/service/impl/ProviderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/org/tartea/service/impl/ProviderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/java/org/tartea/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/org/tartea/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/test/java/org/tartea/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/org/tartea/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/target/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/target/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/target/classes/org/tartea/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/target/classes/org/tartea/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/target/test-classes/org/tartea/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/target/test-classes/org/tartea/SampleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dubbo/v1.0.0" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -55,6 +43,7 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="26KPZn8mEN8xYL4udj2UBDBVwxd" />
   <component name="ProjectLevelVcsManager">
@@ -76,12 +65,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/dubbo-provider/src/main/java/org/tartea/service" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-kafka/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-mapstruct/src/test/java/org/tartea" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
@@ -89,13 +79,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study-mapstruct/src/test/java/org/tartea" />
       <recent name="$PROJECT_DIR$/study-kafka/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.tartea.service" />
+      <recent name="org.tartea.entity" />
       <recent name="org.tartea.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test">
+  <component name="RunManager" selected="JUnit.ApiTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -107,8 +100,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dubbo-consumer" />
+    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-mapstruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tartea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tartea" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.ApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-mapstruct" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.tartea.*" />
@@ -123,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerTest.testConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-kafka" />
+    <configuration name="ApiTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-mapstruct" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.tartea.*" />
@@ -132,15 +140,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.tartea" />
-      <option name="MAIN_CLASS_NAME" value="org.tartea.ConsumerTest" />
-      <option name="METHOD_NAME" value="testConsumer" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.ApiTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerTest.testSendTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-kafka" />
+    <configuration name="ApiTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-mapstruct" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.tartea.*" />
@@ -148,15 +156,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.tartea" />
-      <option name="MAIN_CLASS_NAME" value="org.tartea.ProducerTest" />
-      <option name="METHOD_NAME" value="testSendTopic" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.ApiTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest.selectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-mybatis" />
+    <configuration name="ApiTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-mapstruct" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.tartea.*" />
@@ -164,24 +172,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.tartea" />
-      <option name="MAIN_CLASS_NAME" value="org.tartea.SampleTest" />
-      <option name="METHOD_NAME" value="selectList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleTest.testIsExistRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.tartea.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.tartea" />
-      <option name="MAIN_CLASS_NAME" value="org.tartea.SampleTest" />
-      <option name="METHOD_NAME" value="testIsExistRecord" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.ApiTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,10 +274,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConsumerTest.testConsumer" />
-      <item itemvalue="JUnit.ProducerTest.testSendTopic" />
-      <item itemvalue="JUnit.SampleTest.selectList" />
-      <item itemvalue="JUnit.SampleTest.testIsExistRecord" />
       <item itemvalue="Spring Boot.DubboApiApplication" />
       <item itemvalue="Spring Boot.DubboConsumerApplication" />
       <item itemvalue="Spring Boot.DubboProviderApplication" />
@@ -299,15 +287,19 @@
       <item itemvalue="Spring Boot.StudyRestServerApplication" />
       <item itemvalue="Spring Boot.StudyRibbonApplication" />
       <item itemvalue="Spring Boot.StudyZuulApplication" />
-      <item itemvalue="JUnit.ApiTest.test" />
+      <item itemvalue="JUnit.ApiTest.test (1)" />
+      <item itemvalue="JUnit.ApiTest.test1" />
+      <item itemvalue="JUnit.ApiTest" />
+      <item itemvalue="JUnit.ApiTest.test2" />
+      <item itemvalue="JUnit.ApiTest.test3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiTest.test" />
-        <item itemvalue="JUnit.SampleTest.testIsExistRecord" />
-        <item itemvalue="JUnit.SampleTest.selectList" />
-        <item itemvalue="JUnit.ProducerTest.testSendTopic" />
-        <item itemvalue="JUnit.ConsumerTest.testConsumer" />
+        <item itemvalue="JUnit.ApiTest" />
+        <item itemvalue="JUnit.ApiTest.test3" />
+        <item itemvalue="JUnit.ApiTest.test2" />
+        <item itemvalue="JUnit.ApiTest.test (1)" />
+        <item itemvalue="JUnit.ApiTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -334,11 +326,71 @@
       <workItem from="1647866842473" duration="625000" />
       <workItem from="1648106305964" duration="291000" />
       <workItem from="1648106797073" duration="1142000" />
-      <workItem from="1648178662704" duration="2767000" />
+      <workItem from="1648178662704" duration="3305000" />
+      <workItem from="1648191897235" duration="3992000" />
+      <workItem from="1648544419837" duration="1846000" />
+      <workItem from="1648605167010" duration="696000" />
+      <workItem from="1648635889000" duration="11117000" />
     </task>
+    <task id="LOCAL-00001" summary="删除pom中无用的信息">
+      <created>1648191793965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648191793965</updated>
+    </task>
+    <task id="LOCAL-00002" summary="验证dubbo功能">
+      <created>1648194643447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648194643447</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加新的方法">
+      <created>1648194722057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648194722057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改dubbo的调用方法">
+      <created>1648195160338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648195160338</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改.gitignore的名称">
+      <created>1648195193374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648195193374</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除pom中无用的信息" />
+    <MESSAGE value="验证dubbo功能" />
+    <MESSAGE value="增加新的方法" />
+    <MESSAGE value="修改dubbo的调用方法" />
+    <MESSAGE value="修改.gitignore的名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改.gitignore的名称" />
   </component>
 </project>

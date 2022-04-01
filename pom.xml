@@ -59,6 +59,8 @@
         <module>dubbo-consumer</module>
         <module>spring-mybatis</module>
         <module>study-kafka</module>
+        <module>study-poi</module>
+        <module>study-mapstruct</module>
     </modules>
 
     <build>

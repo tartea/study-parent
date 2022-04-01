@@ -6,30 +6,46 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="study-zuul" />
         <module name="study-hystrix" />
-        <module name="study-rest-server" />
         <module name="study-ribbon" />
         <module name="study-feign" />
+        <module name="study-poi" />
+        <module name="dubbo-model" />
+        <module name="spring-mybatis" />
+        <module name="study-kafka" />
+        <module name="study-zuul" />
+        <module name="study-rest-server" />
         <module name="dubbo-provider" />
         <module name="study-rest" />
         <module name="study-eureka" />
-        <module name="spring-mybatis" />
         <module name="dubbo-consumer" />
-        <module name="study-kafka" />
         <module name="dubbo-api" />
+      </profile>
+      <profile name="Annotation profile for study-parent" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.m2/repository/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$USER_HOME$/.m2/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+          <entry name="$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar" />
+        </processorPath>
+        <module name="study-mapstruct" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-api" target="1.5" />
       <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-model" target="8" />
       <module name="dubbo-provider" target="1.8" />
       <module name="spring-mybatis" target="1.8" />
       <module name="study-eureka" target="1.5" />
       <module name="study-feign" target="1.5" />
       <module name="study-hystrix" target="1.5" />
       <module name="study-kafka" target="1.8" />
+      <module name="study-mapstruct" target="1.8" />
       <module name="study-parent" target="1.5" />
+      <module name="study-poi" target="8" />
       <module name="study-rest" target="1.5" />
       <module name="study-rest-server" target="1.5" />
       <module name="study-ribbon" target="1.5" />
@@ -38,7 +54,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="dubbo-api" options="-parameters" />
+      <module name="dubbo-api" options="" />
       <module name="dubbo-consumer" options="-parameters" />
       <module name="dubbo-provider" options="-parameters" />
       <module name="spring-mybatis" options="-parameters" />
