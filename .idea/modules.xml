@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-model/dubbo-model.iml" filepath="$PROJECT_DIR$/dubbo-model/dubbo-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-eureka/study-eureka.iml" filepath="$PROJECT_DIR$/study-eureka/study-eureka.iml" />
@@ -14,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/study-mapstruct/study-mapstruct.iml" filepath="$PROJECT_DIR$/study-mapstruct/study-mapstruct.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-parent.iml" filepath="$PROJECT_DIR$/study-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-poi/study-poi.iml" filepath="$PROJECT_DIR$/study-poi/study-poi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-redis/study-redis.iml" filepath="$PROJECT_DIR$/study-redis/study-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-rest/study-rest.iml" filepath="$PROJECT_DIR$/study-rest/study-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-rest-server/study-rest-server.iml" filepath="$PROJECT_DIR$/study-rest-server/study-rest-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-ribbon/study-ribbon.iml" filepath="$PROJECT_DIR$/study-ribbon/study-ribbon.iml" />

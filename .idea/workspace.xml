@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d157b86-14a7-4168-858e-e89f0c293c6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -65,7 +73,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/dubbo-provider/src/main/java/org/tartea/service" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-mapstruct/src/test/java/org/tartea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-mapstruct/src/test/java/org/tartea/testfile" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -77,8 +85,12 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study-mapstruct/src/test/java/org/tartea/testfile" />
       <recent name="$PROJECT_DIR$/study-mapstruct/src/test/java/org/tartea" />
       <recent name="$PROJECT_DIR$/study-kafka/src/main/resources" />
     </key>
@@ -88,35 +100,22 @@
       <recent name="org.tartea.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApiTest.test">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-mapstruct" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.tartea.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.tartea" />
-      <option name="MAIN_CLASS_NAME" value="org.tartea.ApiTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-mapstruct" />
+    <configuration name="ApiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-redis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.tartea.*" />
@@ -131,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-mapstruct" />
+    <configuration name="SampleTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.tartea.*" />
@@ -140,15 +139,32 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.tartea" />
-      <option name="MAIN_CLASS_NAME" value="org.tartea.ApiTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.SampleTest" />
+      <option name="METHOD_NAME" value="testCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:$PROJECT_DIR$/../../glog/glog/target/glog-1.0-SNAPSHOT.jar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tartea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tartea" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.SampleTest" />
+      <option name="METHOD_NAME" value="testSelect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-mapstruct" />
+    <configuration name="SampleTest.test_Count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.tartea.*" />
@@ -156,15 +172,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.tartea" />
-      <option name="MAIN_CLASS_NAME" value="org.tartea.ApiTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.SampleTest" />
+      <option name="METHOD_NAME" value="test_Count" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-mapstruct" />
+    <configuration name="SampleTest.updateData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.tartea.*" />
@@ -172,8 +188,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.tartea" />
-      <option name="MAIN_CLASS_NAME" value="org.tartea.ApiTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="org.tartea.SampleTest" />
+      <option name="METHOD_NAME" value="updateData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -245,6 +261,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudyRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tartea.StudyRedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudyRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="study-rest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tartea.study.StudyRestApplication" />
@@ -274,6 +297,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.SampleTest.testCount" />
+      <item itemvalue="JUnit.SampleTest.updateData" />
+      <item itemvalue="JUnit.SampleTest.testSelect" />
+      <item itemvalue="JUnit.SampleTest.test_Count" />
       <item itemvalue="Spring Boot.DubboApiApplication" />
       <item itemvalue="Spring Boot.DubboConsumerApplication" />
       <item itemvalue="Spring Boot.DubboProviderApplication" />
@@ -287,19 +314,16 @@
       <item itemvalue="Spring Boot.StudyRestServerApplication" />
       <item itemvalue="Spring Boot.StudyRibbonApplication" />
       <item itemvalue="Spring Boot.StudyZuulApplication" />
-      <item itemvalue="JUnit.ApiTest.test (1)" />
-      <item itemvalue="JUnit.ApiTest.test1" />
-      <item itemvalue="JUnit.ApiTest" />
-      <item itemvalue="JUnit.ApiTest.test2" />
-      <item itemvalue="JUnit.ApiTest.test3" />
+      <item itemvalue="JUnit.ApiTest.test" />
+      <item itemvalue="Spring Boot.StudyRedisApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiTest" />
-        <item itemvalue="JUnit.ApiTest.test3" />
-        <item itemvalue="JUnit.ApiTest.test2" />
-        <item itemvalue="JUnit.ApiTest.test (1)" />
-        <item itemvalue="JUnit.ApiTest.test1" />
+        <item itemvalue="JUnit.ApiTest.test" />
+        <item itemvalue="JUnit.SampleTest.testCount" />
+        <item itemvalue="JUnit.SampleTest.test_Count" />
+        <item itemvalue="JUnit.SampleTest.testSelect" />
+        <item itemvalue="JUnit.SampleTest.updateData" />
       </list>
     </recent_temporary>
   </component>
@@ -331,6 +355,8 @@
       <workItem from="1648544419837" duration="1846000" />
       <workItem from="1648605167010" duration="696000" />
       <workItem from="1648635889000" duration="11117000" />
+      <workItem from="1650852308895" duration="8646000" />
+      <workItem from="1652705867647" duration="2455000" />
     </task>
     <task id="LOCAL-00001" summary="删除pom中无用的信息">
       <created>1648191793965</created>
@@ -367,7 +393,28 @@
       <option name="project" value="LOCAL" />
       <updated>1648195193374</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试">
+      <created>1650017851127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650017851127</updated>
+    </task>
+    <task id="LOCAL-00007" summary="测试">
+      <created>1650017858579</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650017858579</updated>
+    </task>
+    <task id="LOCAL-00008" summary="测试">
+      <created>1650018917756</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650018917756</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +438,33 @@
     <MESSAGE value="增加新的方法" />
     <MESSAGE value="修改dubbo的调用方法" />
     <MESSAGE value="修改.gitignore的名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改.gitignore的名称" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.5.9/mybatis-3.5.9.jar!/org/apache/ibatis/binding/MapperMethod.class</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.5.9/mybatis-3.5.9-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.5.9/mybatis-3.5.9-sources.jar!/org/apache/ibatis/executor/SimpleExecutor.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-redis/src/test/java/org/tartea/ApiTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

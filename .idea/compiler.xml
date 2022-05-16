@@ -10,7 +10,7 @@
         <module name="study-ribbon" />
         <module name="study-feign" />
         <module name="study-poi" />
-        <module name="dubbo-model" />
+        <module name="study-redis" />
         <module name="spring-mybatis" />
         <module name="study-kafka" />
         <module name="study-zuul" />
@@ -46,6 +46,7 @@
       <module name="study-mapstruct" target="1.8" />
       <module name="study-parent" target="1.5" />
       <module name="study-poi" target="8" />
+      <module name="study-redis" target="1.8" />
       <module name="study-rest" target="1.5" />
       <module name="study-rest-server" target="1.5" />
       <module name="study-ribbon" target="1.5" />
@@ -59,6 +60,7 @@
       <module name="dubbo-provider" options="-parameters" />
       <module name="spring-mybatis" options="-parameters" />
       <module name="study-kafka" options="-parameters" />
+      <module name="study-redis" options="-parameters" />
     </option>
   </component>
   <component name="TypeScriptCompiler">
